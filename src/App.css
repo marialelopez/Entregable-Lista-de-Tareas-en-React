@@ -1,0 +1,111 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: pink;
+}
+
+body {
+  margin: 0; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.container{
+  background-color:#ff1b82 ;
+  border: solid white;
+  border-radius: 15px;
+  display: flex;
+  padding:20px;
+  flex-direction: column;
+  width: 400px;
+  
+}
+
+.cajitaDeCheck{
+  width: 15px; 
+height: 15px; 
+margin-right: 8px;
+font-size: 16px; 
+}
+
+
+.lapiz{
+  width: 25px;
+  float: right;
+  cursor: pointer;
+}
+
+
+.papelera{
+  width: 30px;
+  float: right;
+  cursor: pointer;
+}
+
+.formStyle{
+  width: 200px;
+  height: 22px;
+  background-color: #fafafaec;
+  border-radius: #ff1b82 5px;
+}
+
+.header{
+  color: white;
+}
+
+.tareasStyle{
+  margin: 15px;
+  background-color: #ff5aa4;
+  border: 1px solid ;
+  border-radius: 5px;
+  color: white;
+  height:30px;
+  width:300px";
+}
+
+.botonGuardar{
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.4em;
+  font-size: 11px;
+  font-family: inherit;
+  background-color: #ff5aa4;
+  cursor: pointer;
+  margin-left:5px;
+  color: white;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.4em;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ff96c5;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin-left:5px;
+  color: white;
+}
+button:hover {
+  border-color: #ff5aa4;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #213547;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
